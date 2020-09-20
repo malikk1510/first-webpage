@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+
+.navbar {
+  
+  background-color: #fff !important;
+}
+.navbar-brand {
+  font-size: 1.9rem !important;
+  color: #3498db !important;
+}
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  color: #3498db;
+
+}
+
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+
+.navbar a:hover {
+  color:navy !important;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+.btn{
+    border: 1px solid  #3498db !important;
+    background-color: transparent !important;
+    color: #3498db !important;
+    border-radius: 50px !important;
+    transition:background-color 1s, color 1s !important;
+}
+.btn:hover{
+    background-color: #3498db !important;
+    color: white !important;
+
+}
+.floating {   
+    animation-name: floating; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out; 
+} 
+  
+@keyframes floating { 
+    0% { transform: translate(0,  0px); } 
+    50%  { transform: translate(0, 15px); } 
+    100%   { transform: translate(0, -0px); }     
+} 
